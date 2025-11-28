@@ -20,7 +20,7 @@ const ProjectsPage = () => {
         id: 1,
         title: "Online Doctor Appointment System",
         description: "A comprehensive platform enabling patients to book, manage, and track medical appointments with healthcare providers through an intuitive interface.",
-        image: process.env.PUBLIC_URL + '/assets/projects/sams/sams3.png',
+        image: import.meta.env.BASE_URL + 'assets/projects/sams/sams3.png',
         technologies: [],
         liveDemo: "https://plchakradhar.github.io/SAMS/",
         github: "https://github.com/plchakradhar/prescripto-healthcare.git",
@@ -32,10 +32,10 @@ const ProjectsPage = () => {
         title: "SAMS - Student Attendance Management System",
         description: "Full-stack attendance management system with real-time tracking, reporting, and analytics for educational institutions.",
         images: [
-          process.env.PUBLIC_URL + '/assets/projects/sams/sams1.png',
-          process.env.PUBLIC_URL + '/assets/projects/sams/sams2.png',
-          process.env.PUBLIC_URL + '/assets/projects/sams/sams3.png',
-          process.env.PUBLIC_URL + '/assets/projects/sams/sams4.png'
+          import.meta.env.BASE_URL + 'assets/projects/sams/sams1.png',
+          import.meta.env.BASE_URL + 'assets/projects/sams/sams2.png',
+          import.meta.env.BASE_URL + 'assets/projects/sams/sams3.png',
+          import.meta.env.BASE_URL + 'assets/projects/sams/sams4.png'
         ],
         technologies: [],
         liveDemo: "https://plchakradhar.github.io/SAMS/",
@@ -48,12 +48,12 @@ const ProjectsPage = () => {
         title: "Employee Management System",
         description:"Full-stack employee management system with real-time tracking, reporting, and analytics for IT company.",
         images: [
-          process.env.PUBLIC_URL + '/assets/projects/ems/ems1.png',
-          process.env.PUBLIC_URL + '/assets/projects/ems/ems2.png',
-          process.env.PUBLIC_URL + '/assets/projects/ems/esm3.png',
-          process.env.PUBLIC_URL + '/assets/projects/ems/ems4.png',
-          process.env.PUBLIC_URL + '/assets/projects/ems/ems5.png',
-          process.env.PUBLIC_URL + '/assets/projects/ems/ems6.png'
+          import.meta.env.BASE_URL + 'assets/projects/ems/ems1.png',
+          import.meta.env.BASE_URL + 'assets/projects/ems/ems2.png',
+          import.meta.env.BASE_URL + 'assets/projects/ems/esm3.png',
+          import.meta.env.BASE_URL + 'assets/projects/ems/ems4.png',
+          import.meta.env.BASE_URL + 'assets/projects/ems/ems5.png',
+          import.meta.env.BASE_URL + 'assets/projects/ems/ems6.png'
         ],
         technologies: [],
         liveDemo: "https://plchakradhar.github.io/SAMS/",

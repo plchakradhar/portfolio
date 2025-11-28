@@ -9,7 +9,7 @@ const Navigation = ({ showMenu, isMobile, toggleMenu, closeMenu, currentPage }) 
   // Initialize music state from localStorage and setup audio
   useEffect(() => {
     // Create audio element
-    backgroundMusicRef.current = new Audio('/sounds/background-music.mp3');
+    backgroundMusicRef.current = new Audio(import.meta.env.BASE_URL + 'sounds/background-music.mp3');
     backgroundMusicRef.current.loop = true;
     backgroundMusicRef.current.volume = 0.3;
 

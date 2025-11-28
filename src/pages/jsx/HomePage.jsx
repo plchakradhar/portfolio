@@ -208,19 +208,19 @@ const HomePage = () => {
     <div className="home-page">
       {/* Audio Elements */}
       <audio ref={buttonSoundRef}>
-        <source src="/sounds/button-click.mp3" type="audio/mpeg" />
+        <source src={import.meta.env.BASE_URL + 'sounds/button-click.mp3'} type="audio/mpeg" />
       </audio>
       
       {/* Background Music */}
       <audio ref={backgroundMusicRef} loop>
-        <source src="/sounds/background-music.mp3" type="audio/mpeg" />
-        <source src="/sounds/background-music.ogg" type="audio/ogg" />
+        <source src={import.meta.env.BASE_URL + 'sounds/background-music.mp3'} type="audio/mpeg" />
+        <source src={import.meta.env.BASE_URL + 'sounds/background-music.ogg'} type="audio/ogg" />
         Your browser does not support the audio element.
       </audio>
 
       {/* Welcome Sound */}
       <audio ref={welcomeSoundRef}>
-        <source src="/sounds/welcome-message.mp3" type="audio/mpeg" />
+        <source src={import.meta.env.BASE_URL + 'sounds/welcome-message.mp3'} type="audio/mpeg" />
       </audio>
 
       {/* Common Background Animations */}
@@ -271,7 +271,7 @@ const HomePage = () => {
               <div className="image-container">
                 <div className="hacking-frame">
                   <img 
-                    src={process.env.PUBLIC_URL + '/assets/chakri.JPG'} 
+                    src={import.meta.env.BASE_URL + 'assets/chakri.JPG'} 
                     alt="P. Lakshmi Chakradhar" 
                     className="profile-img" 
                     onError={(e) => {

@@ -17,7 +17,7 @@ const BackgroundAnimations = () => {
           poster="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" // Fallback image
         >
           {/* Use the imported video */}
-          <source src="/assets/background-video.mp4" type="video/mp4" />
+          <source src={import.meta.env.BASE_URL + 'assets/background-video.mp4'} type="video/mp4" />
           {/* Add fallback content */}
           Your browser does not support the video tag.
         </video>
