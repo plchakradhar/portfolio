@@ -1,0 +1,22 @@
+:root {
+  --primary: #00ff00;
+  --light: #ffffff;
+  --dark: #0a0a0a;
+  --transition: all 0.3s ease;
+  --gradienttext: linear-gradient(90deg, #00ff00, #00cc00, #009900);
+  --card-bg: rgba(10, 10, 10, 0.9);
+  --hover-glow: 0 0 30px rgba(0, 255, 0, 0.4);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', monospace;
+  background: var(--dark);
+  color: var(--primary);
+  overflow-x: hidden;
+}
