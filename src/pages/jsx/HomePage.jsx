@@ -271,7 +271,7 @@ const HomePage = () => {
               <div className="image-container">
                 <div className="hacking-frame">
                   <img 
-                    src="/assets/chakri.JPG" 
+                    src={process.env.PUBLIC_URL + '/assets/chakri.JPG'} 
                     alt="P. Lakshmi Chakradhar" 
                     className="profile-img" 
                     onError={(e) => {

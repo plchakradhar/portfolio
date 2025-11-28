@@ -15,56 +15,56 @@ const AchievementsPage = () => {
     {
       id: 1,
       title: "Orcale Certified Associate",
-      image: "/assets/certificates/global-oracle.jpg",
+      image: process.env.PUBLIC_URL + '/assets/certificates/global-oracle.jpg',
       certificateLink: "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7159408&trackId=OCI25CAA&key=ba2714a642974791d7653beaa72e261110c35fdd",
       category: "Frontend"
     },
     {
       id: 2,
       title: "Cyber Security Analyst Job Simulation",
-      image: "/assets/certificates/forage.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/forage.png',
       certificateLink: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gmf3ypEXBj2wvfQWC_ifobHAoMjQs9s6bKS_SoXApy3sshTmjpXHn_1751900699946_completion_certificate.pdf",
       category: "Backend"
     },
     {
       id: 3,
       title: "Jenkins - From Zero to Hero Specialization",
-      image: "/assets/certificates/learnkarts.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/learnkarts.png',
       certificateLink: "https://www.coursera.org/account/accomplishments/specialization/certificate/E9CLN28MMDJG",
       category: "Programming"
     },
     {
       id: 4,
       title: "CI/CD Pipeline with Docker",
-      image: "/assets/certificates/cicd.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/cicd.png',
       certificateLink: "https://www.coursera.org/account/accomplishments/verify/7TNIWNDDMCR7",
       category: "Security"
     },
     {
       id: 5,
       title: "Fundamentals of Ansible",
-      image: "/assets/certificates/redhat.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/redhat.png',
       certificateLink: "https://coursera.org/share/0a44f6756afbace88c569adfa6777f52",
       category: "Database"
     },
     {
       id: 6,
       title: "Advanced Exploitation and Scripting Techniques",
-      image: "/assets/certificates/packt.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/packt.png',
       certificateLink: "https://coursera.org/share/60f681feeabb0176f9a09a344917baf0",
       category: "DevOps"
     },
     {
       id: 7,
       title: "Real-Time Cyber Threat Detection and Mitigation",
-      image: "/assets/certificates/threatdetection.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/threatdetection.png',
       certificateLink: "https://coursera.org/share/fe0b50d7716cd79ef60ddd15f683aa7b",
       category: "Cloud"
     },
     {
       id: 8,
       title: "CI/CD with Jenkins",
-      image: "/assets/certificates/cicdjenkins.png",
+      image: process.env.PUBLIC_URL + '/assets/certificates/cicdjenkins.png',
       certificateLink: "https://coursera.org/share/2a08b0beb4e2e763d58e88271e20cafb",
       category: "Programming"
     },

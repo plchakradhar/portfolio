@@ -122,7 +122,7 @@ const AboutPage = () => {
               <div className="info-card">
                 <div className="info-image">
                   <img 
-                    src="/assets/chakri-profile.jpg" 
+                    src={process.env.PUBLIC_URL + '/assets/chakri-profile.jpg'} 
                     alt="P. Lakshmi Chakradhar" 
                     className="profile-img"
                     onError={(e) => {
