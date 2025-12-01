@@ -185,13 +185,24 @@ const AboutPage = () => {
                   </div>
                   
                   <div className="resume-buttons">
-                    <a href="/assets/PothugantiLakshmiChakradharResume.pdf" className="btn btn-primary" download>
-                      <i className="fas fa-download"></i> Download Resume
-                    </a>
-                    <a href="/assets/PothugantiLakshmiChakradharResume.pdf" className="btn btn-outline" target="_blank" rel="noopener noreferrer">
-                      <i className="fas fa-eye"></i> View Resume
-                    </a>
-                  </div>
+  <a
+    href={`${import.meta.env.BASE_URL}assets/PothugantiLakshmiChakradharResume.pdf`}
+    className="btn btn-primary"
+    download
+  >
+    <i className="fas fa-download"></i> Download Resume
+  </a>
+
+  <a
+    href={`${import.meta.env.BASE_URL}assets/PothugantiLakshmiChakradharResume.pdf`}
+    className="btn btn-outline"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i className="fas fa-eye"></i> View Resume
+  </a>
+</div>
+
                 </div>
               </div>
             </div>

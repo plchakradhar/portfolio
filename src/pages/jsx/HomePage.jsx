@@ -19,7 +19,7 @@ const HomePage = () => {
   const welcomeSoundRef = useRef(null);
 
   const fullText = "P. LAKSHMI CHAKRADHAR";
-  const roles = ["SOFTWARE DEVELOPER", "CYBER SECURITY ANALYST", "ETHICAL HACKER", "FULL STACK DEVELOPER"];
+  const roles = ["CYBER SECURITY ANALYST", "Video Editor", "Photo Editor", "FULL STACK DEVELOPER"];
 
   // Sound effects
   const playButtonSound = () => {
